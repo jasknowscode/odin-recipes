@@ -1,0 +1,33 @@
+body {
+    background-color: whitesmoke;
+}
+
+header,
+h1 {
+    background-color: beige;
+}
+
+#title {
+    font-size: 32px;
+    margin: 16px;
+    padding: 24px;
+    color: orange;
+    display: block;
+
+}
+
+#recipe-list {
+    display: inline-block;
+    margin: 32px;
+    padding: 16px;
+}
+
+.food-images {
+    padding: 24px;
+    margin: 0 auto;
+    display: inline;
+    padding: 156px;
+}
+
+.recipe-card {
+}
