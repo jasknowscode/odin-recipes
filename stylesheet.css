@@ -1,26 +1,116 @@
 body {
     background-color: whitesmoke;
+    margin: 32px;
 }
 
 header {
     background-color: beige;
     font-size: 16px;
-    margin: 8px;
+    margin: 0px;
     padding: 16px;
     color: orange;
+    text-align: center;
 }
 
 .recipe-card {
-    margin: 32px;
-    padding: 0px;
+    padding: 44px;
     display: inline-block;
+    margin: 16px;;
 }
 
+button {
+    padding: 4px;
+    margin: 0px 16px;
+    background-color: rgb(237, 218, 182);
+    display: inline-block;
+    font-size: 18px;
+}
+
+
 img {
-    height: 500px
+    height:400px;
+    padding: 16px;
 }
 
 .main-header {
+    margin: 0x 32px;
+    padding: 0px 32px;
+    display: block;
+    font-size: 64px;
+}
+
+#ooey-description {
+    width: auto;
+    font-size: 24px;
+    margin: 0 32px;
+    color: rgb(69, 68, 68)
+}
+
+#tira-description {
+    width: auto;
+    font-size: 24px;
+    margin: 0 32px;
+    color: rgb(69, 68, 68)
+}
+
+#lava-description {
+    width: auto;
+    font-size: 24px;
+    margin: 0 32px;
+    color: rgb(69, 68, 68)
+}
+
+.food-images {
+    margin: 0px 16px;
+    padding: 8px;
+    display: block;
+}
+
+.page-title {
+    display: block;
+    font-size: 32px;
+    
+}
+
+.home {
+    display: block;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+.food-description {
     margin: 16px;
-    padding: 
+    display: inline-block;
+    font-size: 32px;
+}
+
+h4 {
+    border: 8px;
+}
+
+.preparation-details,
+h4, span {
+    display: inline-block;
+    margin: 16px;
+    font-size: 24px;
+    padding: 4px;
+    background-color: beige;
+}
+
+
+h3 {
+    margin: 32px;
+    font-size: 28px;
+}
+
+ul, ol {
+    font-size: 24px;
+    display: block;
+    background-color: beige;
+    margin: 32px;
+}
+
+li {
+    padding: 16px;
 }
